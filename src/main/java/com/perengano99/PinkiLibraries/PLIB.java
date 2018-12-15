@@ -9,7 +9,6 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.perengano99.PinkiLibraries.CommandApi.CommandCreatorAPI;
 import com.perengano99.PinkiLibraries.FileManagerApi.FileManagerAPI;
-import com.perengano99.PinkiLibraries.NMSApi.PacketsApi.PacketsAPI;
 import com.perengano99.PinkiLibraries.NMSApi.ReflectionUtil.ReflectUtil;
 import com.perengano99.PinkiLibraries.NMSApi.NMSAPI;
 
@@ -20,7 +19,6 @@ public class PLIB extends JavaPlugin implements Listener {
     
     public static CommandCreatorAPI CommandCreatorAPI = new CommandCreatorAPI();
     public static FileManagerAPI FileManagerAPI = new FileManagerAPI();
-    public static PacketsAPI PacketsAPI = new PacketsAPI();
     public static NMSAPI NMSAPI = new NMSAPI();
     
     public PLIB() {
